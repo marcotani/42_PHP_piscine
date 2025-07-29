@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 00 - Create Table</title>
+</head>
+<body>
+    <h1>Exercise 00: SQL Table Creation</h1>
+
+    {% if message is defined %}
+        <p>{{ message }}</p>
+    {% endif %}
+
+    <form action="{{ path('ex00_create_table') }}" method="post">
+        <button type="submit">Create Table</button>
+    </form>
+</body>
+</html>
+

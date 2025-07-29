@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>User List</title>
+</head>
+<body>
+    <h1>User List</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th><th>Username</th><th>Name</th><th>Email</th>
+                <th>Enabled</th><th>Birthdate</th><th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in users %}
+                <tr>
+                    <td>{{ user.id }}</td>
+                    <td>{{ user.username }}</td>
+                    <td>{{ user.name }}</td>
+                    <td>{{ user.email }}</td>
+                    <td>{{ user.enable ? 'Yes' : 'No' }}</td>
+                    <td>{{ user.birthdate|date('Y-m-d H:i') }}</td>
+                    <td>{{ user.address }}</td>
+                </tr>
+            {% else %}
+                <tr><td colspan="7">No users found.</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <p><a href="{{ path('ex02_form') }}">Insert New User</a></p>
+</body>
+</html>
+

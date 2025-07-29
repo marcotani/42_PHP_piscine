@@ -1,0 +1,5 @@
+ex01:
+    resource: '../../src/ex01/Controller/'
+    type: attribute
+    prefix: /ex01
+

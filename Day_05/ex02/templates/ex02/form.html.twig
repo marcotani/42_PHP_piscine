@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 02: SQL Form</title>
+</head>
+<body>
+    <h1>Exercise 02: SQL Form</h1>
+    <h2>Insert User</h2>
+
+    {% for message in app.flashes('error') %}
+        <div style="color:red;">{{ message }}</div>
+    {% endfor %}
+
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <button type="submit">Submit</button>
+    {{ form_end(form) }}
+
+    <p><a href="{{ path('ex02_list') }}">View All Users</a></p>
+</body>
+</html>
+

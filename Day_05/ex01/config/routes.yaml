@@ -1,0 +1,8 @@
+# config/routes.yaml
+
+ex01_controllers:
+    resource: routes/annotations.yaml
+
+ex00_controllers:
+    resource: ../src/ex00/Controller/
+    type: attribute

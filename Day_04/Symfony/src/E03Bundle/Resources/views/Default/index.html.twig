@@ -1,0 +1,21 @@
+<h1>Color Shades</h1>
+
+<table border="1" cellspacing="0" cellpadding="0">
+    <thead>
+        <tr>
+            {% for color in colors %}
+                <th>{{ color|capitalize }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in shades %}
+            <tr>
+                {% for shade in row %}
+                    <td style="height: 40px; width: 80px; background-color: {{ shade }}"></td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+

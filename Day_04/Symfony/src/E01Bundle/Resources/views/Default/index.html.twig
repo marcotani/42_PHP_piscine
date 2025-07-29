@@ -1,0 +1,9 @@
+{% extends "E01Bundle:Default:base.html.twig" %}
+
+{% block content %}
+<ul>
+    {% for category in categories %}
+        <li><a href="/e01/{{ category }}">{{ category|capitalize }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}

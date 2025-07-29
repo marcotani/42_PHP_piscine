@@ -1,0 +1,18 @@
+{# src/E02Bundle/Resources/views/Default/index.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Submit a Message</h1>
+
+    {{ form_start(form) }}
+        {{ form_row(form.message) }}
+        {{ form_row(form.includeTimestamp) }}
+        {{ form_row(form.save) }}
+    {{ form_end(form) }}
+
+    {% if lastLine %}
+        <h3>Last submitted line:</h3>
+        <pre>{{ lastLine }}</pre>
+    {% endif %}
+{% endblock %}

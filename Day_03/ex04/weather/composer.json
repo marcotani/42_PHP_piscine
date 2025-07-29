@@ -1,0 +1,17 @@
+{
+  "name": "mtani/weather",
+  "description": "A package to fetch current weather for your city",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5.0",
+    "tcdent/php-restclient": "dev-master"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Mtani\\Weather\\": "src/"
+    }
+  }
+}
+

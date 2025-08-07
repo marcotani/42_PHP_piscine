@@ -1,3 +1,0 @@
-controllers:
-    resource: ../src/ex00/Controller/
-    type: attribute

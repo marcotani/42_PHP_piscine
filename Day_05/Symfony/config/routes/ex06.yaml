@@ -1,0 +1,9 @@
+ex06_list:
+    path: /ex06
+    controller: App\ex06\Controller\Ex06Controller::list
+ex06_edit:
+    path: /ex06/edit/{id}
+    controller: App\ex06\Controller\Ex06Controller::edit
+ex06_add:
+    path: /ex06/add
+    controller: App\ex06\Controller\Ex06Controller::add

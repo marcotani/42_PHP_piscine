@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+{% block title %}ex04 List{% endblock %}
+{% block body %}
+<h1>ex04 List (SQL Delete)</h1>
+{% if message %}<div style="color:green">{{ message }}</div>{% endif %}
+{% if error %}<div style="color:red">{{ error }}</div>{% endif %}
+<p><a href="{{ path('ex04_add') }}"><button>Add User</button></a></p>
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th><th>Username</th><th>Name</th><th>Email</th>
+            <th>Enabled</th><th>Birthdate</th><th>Address</th><th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for user in users %}
+            <tr>
+                <td>{{ user.id }}</td>
+                <td>{{ user.username }}</td>
+                <td>{{ user.name }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.enable ? 'Yes' : 'No' }}</td>
+                <td>{{ user.birthdate ? user.birthdate|date('Y-m-d H:i') : '' }}</td>
+                <td>{{ user.address }}</td>
+                <td>
+                    <a href="{{ path('ex04_delete', {'id': user.id}) }}" onclick="return confirm('Delete user #{{ user.id }}?');">Delete</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr><td colspan="8">No users found.</td></tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

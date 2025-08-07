@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+{% block title %}Add User (ex06){% endblock %}
+{% block body %}
+<h1>Add User (ex06)</h1>
+{% if message %}<div style="color:green">{{ message }}</div>{% endif %}
+{% if error %}<div style="color:red">{{ error }}</div>{% endif %}
+<form method="post">
+    <label>Username: <input type="text" name="username" required></label><br>
+    <label>Name: <input type="text" name="name" required></label><br>
+    <label>Email: <input type="email" name="email" required></label><br>
+    <label>Enable: <input type="checkbox" name="enable"></label><br>
+    <label>Birthdate: <input type="datetime-local" name="birthdate" required></label><br>
+    <label>Address: <textarea name="address"></textarea></label><br>
+    <button type="submit">Add User</button>
+</form>
+<p><a href="{{ path('ex06_list') }}">Back to List</a></p>
+{% endblock %}

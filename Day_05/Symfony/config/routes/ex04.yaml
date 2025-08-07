@@ -1,0 +1,9 @@
+ex04_list:
+    path: /ex04
+    controller: App\ex04\Controller\Ex04Controller::list
+ex04_delete:
+    path: /ex04/delete/{id}
+    controller: App\ex04\Controller\Ex04Controller::delete
+ex04_add:
+    path: /ex04/add
+    controller: App\ex04\Controller\Ex04Controller::add

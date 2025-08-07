@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+{% block title %}Add User (ex05){% endblock %}
+{% block body %}
+<h1>Add User (ex05)</h1>
+{% if message %}<div style="color:green">{{ message }}</div>{% endif %}
+{% if error %}<div style="color:red">{{ error }}</div>{% endif %}
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+    <button type="submit">Add User</button>
+{{ form_end(form) }}
+<p><a href="{{ path('ex05_list') }}">Back to List</a></p>
+{% endblock %}

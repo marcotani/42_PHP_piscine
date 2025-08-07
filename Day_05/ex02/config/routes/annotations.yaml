@@ -1,4 +1,0 @@
-ex01_controllers:
-    resource: ../../src/ex01/Controller/
-    type: attribute
-

@@ -1,0 +1,6 @@
+ex03:
+    path: /ex03
+    controller: App\ex03\Controller\Ex03Controller::form
+ex03_list:
+    path: /ex03/list
+    controller: App\ex03\Controller\Ex03Controller::list

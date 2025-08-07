@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+{% block title %}Exercise 03: ORM Form{% endblock %}
+{% block body %}
+<h1>Exercise 03: ORM Form</h1>
+<h2>Insert User</h2>
+{% if error %}<div style="color:red">{{ error }}</div>{% endif %}
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+    <button type="submit">Submit</button>
+{{ form_end(form) }}
+<p><a href="{{ path('ex03_list') }}">View All Users</a></p>
+{% endblock %}

@@ -1,0 +1,9 @@
+ex05_list:
+    path: /ex05
+    controller: App\ex05\Controller\Ex05Controller::list
+ex05_delete:
+    path: /ex05/delete/{id}
+    controller: App\ex05\Controller\Ex05Controller::delete
+ex05_add:
+    path: /ex05/add
+    controller: App\ex05\Controller\Ex05Controller::add

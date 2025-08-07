@@ -1,5 +1,5 @@
 # 42_PHP_piscine
-The PHP Piscine is a month-long bootcamp with the aim to familiarize the candidates with the PHP programming language and the Symfony framework. It spans 10 modules and 2 Rushes.
+The PHP Piscine is a month-long bootcamp with the aim to familiarize the candidates with the PHP programming language and the Symfony framework.
 
 Rush00 made in collaboration with: [Adam2475](https://github.com/Adam2475), [stescaro99](https://github.com/stescaro99), [gbarone42](https://github.com/gbarone42)
 

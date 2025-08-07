@@ -20,7 +20,7 @@ class IntranetAuthenticator extends AbstractLoginFormAuthenticator
 {
     use TargetPathTrait;
 
-    public const LOGIN_ROUTE = 'app_login';
+    public const LOGIN_ROUTE = 'login';
 
     public function __construct(private UrlGeneratorInterface $urlGenerator)
     {
@@ -47,9 +47,10 @@ class IntranetAuthenticator extends AbstractLoginFormAuthenticator
         if ($targetPath = $this->getTargetPath($request->getSession(), $firewallName)) {
             return new RedirectResponse($targetPath);
         }
-
+        // Get the authenticated user
+        $user = $token->getUser();
         // Redirect alla homepage dopo il login
-        return new RedirectResponse($this->urlGenerator->generate('homepage'));
+        return new RedirectResponse($this->urlGenerator->generate('userpage', ['id' => $user->getId()]));
     }
 
     protected function getLoginUrl(Request $request): string

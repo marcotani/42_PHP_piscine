@@ -28,8 +28,8 @@ security:
                 # remember_me: true
 
             logout:
-                path: app_logout  # This is the route name, not URL
-                target: / # Optional: redirect to login after logout
+                path: /logout  # This is the route name, not URL
+                target: /login # Optional: redirect to login after logout
 
             custom_authenticator: App\Security\IntranetAuthenticator
 
@@ -45,9 +45,16 @@ security:
                 # login form, uncomment the following line to always enable it.
                 # always_remember_me: true
 
+    role_hierarchy:
+        ROLE_ADMIN: ROLE_USER
+
     access_control:
         # Admin backend access - only ROLE_ADMIN
         - { path: ^/admin, roles: ROLE_ADMIN }
 
         # User profile and other logged-in areas
-        - { path: ^/profile, roles: ROLE_USER }
+        - { path: ^/profile/*, roles: ROLE_USER }
+        - { path: ^/userpage/*, roles: ROLE_USER }
+        - { path: ^/project/*, roles: ROLE_USER }
+        - { path: ^/notifications/*, roles: ROLE_USER }
+        - { path: ^/shop/*, roles: ROLE_USER }

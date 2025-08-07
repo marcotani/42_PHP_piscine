@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block body %}
+<h1>{{ post.title }}</h1>
+<p><strong>Author:</strong> {{ post.author.email }} <span style="color: #888;">(Reputation: {{ authorReputation }})</span></p>
+<p><strong>Created:</strong> {{ post.created|date('Y-m-d H:i') }}</p>
+<p>{{ post.content }}</p>
+<p>
+	Likes: <strong>{{ likes }}</strong> |
+	Dislikes: <strong>{{ dislikes }}</strong>
+</p>
+
+{% if app.user %}
+	<form method="post" action="{{ path('post_vote', {'id': post.id, 'value': 1}) }}" style="display:inline">
+		<button type="submit" {% if userVote and userVote.value == 1 %}disabled{% endif %}>Like</button>
+	</form>
+	<form method="post" action="{{ path('post_vote', {'id': post.id, 'value': -1}) }}" style="display:inline">
+		<button type="submit" {% if userVote and userVote.value == -1 %}disabled{% endif %}>Dislike</button>
+	</form>
+	{% if userVote %}
+		<span style="color: #888;">You voted: {{ userVote.value == 1 ? 'Like' : 'Dislike' }}</span>
+	{% endif %}
+{% endif %}
+
+{% if app.user and app.user == post.author %}
+	<a href="{{ path('post_edit', {'id': post.id}) }}">Edit Post</a>
+{% endif %}
+
+{% if post.lastEditedAt is not null and post.lastEditedBy is not null %}
+	<p style="color: #888; font-size: 0.9em;">
+		Last edited by {{ post.lastEditedBy.email }} on {{ post.lastEditedAt|date('Y-m-d H:i') }}
+	</p>
+{% endif %}
+
+<a href="{{ path('app_home') }}">Back to home</a>
+{% endblock %}

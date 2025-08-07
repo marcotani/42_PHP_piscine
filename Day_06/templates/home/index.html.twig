@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block body %}
+<div class="example-wrapper">
+    {% if user %}
+        <h1>Welcome, {{ user.email }}!</h1>
+        <a href="{{ path('app_logout') }}">Logout</a>
+        {% if 'ROLE_ADMIN' in user.roles %}
+            <br><a href="{{ path('app_admin') }}" style="margin-top:10px;display:inline-block;">Go to Admin Page</a>
+        {% endif %}
+
+    {% else %}
+        <h1>Welcome, guest!</h1>
+        {% if anonymousName %}
+            <p>Your anonymous name: <strong>{{ anonymousName }}</strong></p>
+            <p>Seconds since last request: <strong>{{ secondsSinceLastRequest }}</strong></p>
+        {% endif %}
+        <a href="{{ path('app_login') }}">Login</a> |
+        <a href="{{ path('app_register') }}">Register</a>
+    {% endif %}
+
+<hr>
+<h2>Posts</h2>
+<ul>
+    {% for post in posts %}
+        <li>
+            <a href="{{ path('post_show', {'id': post.id}) }}">{{ post.title }}</a>
+            by {{ post.author.email }} <span style="color: #888;">(Reputation: {{ authorReputations[post.author.id]|default(0) }})</span>
+            on {{ post.created|date('Y-m-d H:i') }} |
+            Likes: <strong>{{ postVotes[post.id].likes|default(0) }}</strong> |
+            Dislikes: <strong>{{ postVotes[post.id].dislikes|default(0) }}</strong>
+        </li>
+    {% else %}
+        <li>No posts yet.</li>
+    {% endfor %}
+</ul>
+
+{% if user %}
+    <a href="{{ path('post_new') }}">Create New Post</a>
+{% endif %}
+</div>
+{% endblock %}

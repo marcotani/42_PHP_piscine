@@ -1,0 +1,26 @@
+<h1>ex09 - ORM Schema Info</h1>
+<a href="{{ path('ex09_home') }}">Back to Home</a>
+
+{% if tables|length == 0 %}
+    <p>No tables found. Use the links on the home page to create them.</p>
+{% endif %}
+
+{% for tableName, structure in tables %}
+    <h2>{{ tableName }}</h2>
+    <table border="1" cellpadding="4" style="border-collapse:collapse; margin-bottom:1em;">
+        <tr>
+            <th>Field</th><th>Type</th><th>Key</th><th>Null</th><th>Default</th><th>Extra</th>
+        </tr>
+        {% for column in structure %}
+            <tr>
+                <td>{{ column.Field }}</td>
+                <td>{{ column.Type }}</td>
+                <td>{{ column.Key }}</td>
+                <td>{{ column.Null }}</td>
+                <td>{{ column.Default is not defined or column.Default is null ? 'NULL' : column.Default }}</td>
+                <td>{{ column.Extra }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endfor %}
+

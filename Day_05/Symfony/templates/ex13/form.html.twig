@@ -1,0 +1,42 @@
+<h1>ex13 - {{ edit ? 'Edit' : 'Create' }} Employee</h1>
+<a href="{{ path('ex13_list') }}">Back to list</a>
+{% if error %}<div style="color:red;">{{ error }}</div>{% endif %}
+<form method="post" style="margin-top:1em;">
+  <label>Firstname*: <input name="firstname" value="{{ employee.getFirstname() }}" required></label><br>
+  <label>Lastname*: <input name="lastname" value="{{ employee.getLastname() }}" required></label><br>
+  <label>Email*: <input name="email" value="{{ employee.getEmail() }}" required type="email"></label><br>
+  <label>Birthdate: <input name="birthdate" value="{{ employee.getBirthdate() ? employee.getBirthdate()|date('Y-m-d') : '' }}" type="date"></label><br>
+  <label>Active: <input name="active" type="checkbox" value="1" {% if employee.isActive() %}checked{% endif %}></label><br>
+  <label>Employed Since: <input name="employed_since" value="{{ employee.getEmployedSince() ? employee.getEmployedSince()|date('Y-m-d') : '' }}" type="date"></label><br>
+  <label>Employed Until: <input name="employed_until" value="{{ employee.getEmployedUntil() ? employee.getEmployedUntil()|date('Y-m-d') : '' }}" type="date"></label><br>
+  <label>Hours:
+    <select name="hours" required>
+      <option value="8"{% if employee.getHours()=='8' %} selected{% endif %}>8</option>
+      <option value="6"{% if employee.getHours()=='6' %} selected{% endif %}>6</option>
+      <option value="4"{% if employee.getHours()=='4' %} selected{% endif %}>4</option>
+    </select>
+  </label><br>
+  <label>Salary: <input name="salary" value="{{ employee.getSalary() }}" type="number" required></label><br>
+  <label>Position:
+    <select name="position" required>
+      <option value="manager"{% if employee.getPosition()=='manager' %} selected{% endif %}>Manager</option>
+      <option value="account_manager"{% if employee.getPosition()=='account_manager' %} selected{% endif %}>Account Manager</option>
+      <option value="qa_manager"{% if employee.getPosition()=='qa_manager' %} selected{% endif %}>QA Manager</option>
+      <option value="dev_manager"{% if employee.getPosition()=='dev_manager' %} selected{% endif %}>Dev Manager</option>
+      <option value="ceo"{% if employee.getPosition()=='ceo' %} selected{% endif %}>CEO</option>
+      <option value="coo"{% if employee.getPosition()=='coo' %} selected{% endif %}>COO</option>
+      <option value="backend_dev"{% if employee.getPosition()=='backend_dev' %} selected{% endif %}>Backend Dev</option>
+      <option value="frontend_dev"{% if employee.getPosition()=='frontend_dev' %} selected{% endif %}>Frontend Dev</option>
+      <option value="qa_tester"{% if employee.getPosition()=='qa_tester' %} selected{% endif %}>QA Tester</option>
+    </select>
+  </label><br>
+  <label>Manager:
+    <select name="manager">
+      <option value="">-- None --</option>
+      {% for m in managers %}
+        <option value="{{ m.getId() }}"{% if employee.getManager() and m.getId() == employee.getManager().getId() %} selected{% endif %}>{{ m.getFirstname() }} {{ m.getLastname() }}</option>
+      {% endfor %}
+    </select>
+  </label><br>
+  <button type="submit">{{ edit ? 'Update' : 'Create' }}</button>
+</form>

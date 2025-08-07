@@ -20,4 +20,6 @@ return [
     App\ex05\Ex05::class => ['all' => true],
     App\ex06\Ex06::class => ['all' => true],
     App\ex07\Ex07::class => ['all' => true],
+    App\ex08\Ex08::class => ['all' => true],
+    App\ex09\Ex09::class => ['all' => true],
 ];

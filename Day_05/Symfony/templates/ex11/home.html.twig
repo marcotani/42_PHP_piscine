@@ -1,0 +1,36 @@
+<h1>ex11 - SQL Join, Filter, Sort Demo</h1>
+
+<form method="get" style="margin-bottom:1em;">
+  <label>Name: <input type="text" name="name" value="{{ name }}"></label>
+  <label>Sort by:
+    <select name="sort">
+      <option value="id"{% if sort=='id' %} selected{% endif %}>ID</option>
+      <option value="name"{% if sort=='name' %} selected{% endif %}>Name</option>
+      <option value="birthdate"{% if sort=='birthdate' %} selected{% endif %}>Birthdate</option>
+      <option value="city"{% if sort=='city' %} selected{% endif %}>City</option>
+      <option value="account_number"{% if sort=='account_number' %} selected{% endif %}>Bank Account</option>
+    </select>
+  </label>
+  <label>Order:
+    <select name="order">
+      <option value="asc"{% if order=='asc' %} selected{% endif %}>Ascending</option>
+      <option value="desc"{% if order=='desc' %} selected{% endif %}>Descending</option>
+    </select>
+  </label>
+  <button type="submit">Apply</button>
+</form>
+
+<table border="1" cellpadding="4" style="border-collapse:collapse;">
+  <tr><th>ID</th><th>Name</th><th>Birthdate</th><th>City</th><th>Bank Account</th></tr>
+  {% for row in results %}
+    <tr>
+      <td>{{ row.id }}</td>
+      <td>{{ row.name }}</td>
+      <td>{{ row.birthdate ? row.birthdate|date('Y-m-d') : '' }}</td>
+      <td>{{ row.city }}</td>
+  <td>{{ row.account_number }}</td>
+    </tr>
+  {% else %}
+    <tr><td colspan="5">No data</td></tr>
+  {% endfor %}
+</table>

@@ -38,6 +38,7 @@ class Ex07
     public function setName(string $name): self { $this->name = $name; return $this; }
     public function getEmail(): ?string { return $this->email; }
     public function setEmail(string $email): self { $this->email = $email; return $this; }
+    public function getEnable(): bool { return $this->enable; }
     public function isEnable(): bool { return $this->enable; }
     public function setEnable(bool $enable): self { $this->enable = $enable; return $this; }
     public function getBirthdate(): ?\DateTimeInterface { return $this->birthdate; }

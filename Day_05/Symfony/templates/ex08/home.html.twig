@@ -1,0 +1,18 @@
+<h1>ex08 - Table Structure & Relations (SQL)</h1>
+
+{# Show success/error messages if present #}
+{% if message %}
+	<div style="color: green;">{{ message }}</div>
+{% endif %}
+{% if error %}
+	<div style="color: red;">{{ error }}</div>
+{% endif %}
+
+<ul>
+	<li><a href="{{ path('ex08_create_persons') }}">Create persons table</a></li>
+	<li><a href="{{ path('ex08_alter_persons') }}">Add marital_status column to persons</a></li>
+	<li><a href="{{ path('ex08_create_related_tables') }}">Create bank_accounts and addresses tables</a></li>
+	<li><a href="{{ path('ex08_create_relationships') }}">Create relationships (foreign keys)</a></li>
+	<li><a href="{{ path('ex08_show_tables') }}">Show tables/structure</a></li>
+</ul>
+

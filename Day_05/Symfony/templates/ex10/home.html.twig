@@ -1,0 +1,26 @@
+<h1>ex10 - SQL & ORM File Import Demo</h1>
+
+<a href="{{ path('ex10_import') }}">Import from file</a>
+
+{% if message is defined and message %}<div style="color: green;">{{ message }}</div>{% endif %}
+{% if error is defined and error %}<div style="color: red;">{{ error }}</div>{% endif %}
+
+<h2>SQL Table (ex10_sql)</h2>
+<table border="1" cellpadding="4" style="border-collapse:collapse; margin-bottom:1em;">
+  <tr><th>ID</th><th>Content</th></tr>
+  {% for item in sqlItems %}
+    <tr><td>{{ item.id }}</td><td>{{ item.content }}</td></tr>
+  {% else %}
+    <tr><td colspan="2">No data</td></tr>
+  {% endfor %}
+</table>
+
+<h2>ORM Table (ex10_orm)</h2>
+<table border="1" cellpadding="4" style="border-collapse:collapse; margin-bottom:1em;">
+  <tr><th>ID</th><th>Content</th></tr>
+  {% for item in ormItems %}
+    <tr><td>{{ item.id }}</td><td>{{ item.content }}</td></tr>
+  {% else %}
+    <tr><td colspan="2">No data</td></tr>
+  {% endfor %}
+</table>

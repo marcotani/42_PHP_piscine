@@ -12,20 +12,13 @@ class Ex04Controller extends AbstractController
     #[Route('/ex04', name: 'ex04_list')]
     public function list(Request $request, Connection $conn): Response
     {
-        $conn->executeStatement(<<<SQL
-            CREATE TABLE IF NOT EXISTS ex04 (
-                id INT AUTO_INCREMENT PRIMARY KEY,
-                username VARCHAR(255) NOT NULL UNIQUE,
-                name VARCHAR(255) NOT NULL,
-                email VARCHAR(255) NOT NULL UNIQUE,
-                enable BOOLEAN NOT NULL,
-                birthdate DATETIME NOT NULL,
-                address LONGTEXT
-            )
-        SQL);
         $message = $request->query->get('message');
         $error = $request->query->get('error');
-        $users = $conn->fetchAllAssociative('SELECT * FROM ex04 ORDER BY id DESC');
+        try {
+            $users = $conn->fetchAllAssociative('SELECT * FROM ex04 ORDER BY id DESC');
+        } catch (\Doctrine\DBAL\Exception\TableNotFoundException $e) {
+            $users = [];
+        }
         return $this->render('ex04/list.html.twig', [
             'users' => $users,
             'message' => $message,
@@ -47,17 +40,22 @@ class Ex04Controller extends AbstractController
     #[Route('/ex04/add', name: 'ex04_add')]
     public function add(Request $request, Connection $conn): Response
     {
-        $conn->executeStatement(<<<SQL
-            CREATE TABLE IF NOT EXISTS ex04 (
-                id INT AUTO_INCREMENT PRIMARY KEY,
-                username VARCHAR(255) NOT NULL UNIQUE,
-                name VARCHAR(255) NOT NULL,
-                email VARCHAR(255) NOT NULL UNIQUE,
-                enable BOOLEAN NOT NULL,
-                birthdate DATETIME NOT NULL,
-                address LONGTEXT
-            )
-        SQL);
+        // Try to create the table if it does not exist
+        try {
+            $conn->fetchAllAssociative('SELECT 1 FROM ex04 LIMIT 1');
+        } catch (\Doctrine\DBAL\Exception\TableNotFoundException $e) {
+            $conn->executeStatement(<<<SQL
+                CREATE TABLE IF NOT EXISTS ex04 (
+                    id INT AUTO_INCREMENT PRIMARY KEY,
+                    username VARCHAR(255) NOT NULL UNIQUE,
+                    name VARCHAR(255) NOT NULL,
+                    email VARCHAR(255) NOT NULL UNIQUE,
+                    enable BOOLEAN NOT NULL,
+                    birthdate DATETIME NOT NULL,
+                    address LONGTEXT
+                )
+            SQL);
+        }
         $error = null;
         $message = null;
         if ($request->isMethod('POST')) {

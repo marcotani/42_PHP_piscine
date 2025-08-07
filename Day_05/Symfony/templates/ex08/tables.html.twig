@@ -1,0 +1,31 @@
+<h1>ex08 - Table Structures & Relationships</h1>
+<a href="{{ path('ex08_home') }}">Back to Home</a>
+
+{% if tables|length == 0 %}
+    <p>No tables found. Use the links on the home page to create them.</p>
+{% endif %}
+
+{% for tableName, structure in tables %}
+    <h2>{{ tableName }}</h2>
+    <table border="1" cellpadding="4" style="border-collapse:collapse; margin-bottom:1em;">
+        <tr>
+            <th>Field</th><th>Type</th><th>Key</th><th>Null</th><th>Default</th><th>Extra</th>
+        </tr>
+        {% for column in structure %}
+            <tr>
+                <td>{{ column.Field }}</td>
+                <td>{{ column.Type }}</td>
+                <td>{{ column.Key }}</td>
+                <td>{{ column.Null }}</td>
+                <td>{{ column.Default is not defined or column.Default is null ? 'NULL' : column.Default }}</td>
+                <td>{{ column.Extra }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endfor %}
+
+<h3>Relationships</h3>
+<ul>
+    <li><b>One-to-One</b>: persons &harr; bank_accounts (bank_accounts.person_id references persons.id)</li>
+    <li><b>One-to-Many</b>: persons &rarr; addresses (addresses.person_id references persons.id)</li>
+</ul>

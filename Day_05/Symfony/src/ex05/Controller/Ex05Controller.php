@@ -40,6 +40,23 @@ class Ex05Controller extends AbstractController
     #[Route('/ex05/add', name: 'ex05_add')]
     public function add(Request $request, EntityManagerInterface $em): Response
     {
+        // Ensure table exists before adding
+        $conn = $em->getConnection();
+        try {
+            $conn->fetchAllAssociative('SELECT 1 FROM ex05 LIMIT 1');
+        } catch (\Doctrine\DBAL\Exception\TableNotFoundException $e) {
+            $conn->executeStatement(<<<SQL
+                CREATE TABLE IF NOT EXISTS ex05 (
+                    id INT AUTO_INCREMENT PRIMARY KEY,
+                    username VARCHAR(255) NOT NULL UNIQUE,
+                    name VARCHAR(255) NOT NULL,
+                    email VARCHAR(255) NOT NULL UNIQUE,
+                    enable BOOLEAN NOT NULL,
+                    birthdate DATETIME NOT NULL,
+                    address LONGTEXT
+                )
+            SQL);
+        }
         $user = new Ex05();
         $form = $this->createForm(Ex05Type::class, $user);
         $form->handleRequest($request);

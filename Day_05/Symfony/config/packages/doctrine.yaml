@@ -17,6 +17,18 @@ doctrine:
                 prefix: 'App\Entity'
                 alias: App
 
+            App_ex10:
+                is_bundle: false
+                dir: '%kernel.project_dir%/src/ex10/Entity'
+                prefix: 'App\\ex10\\Entity'
+                alias: App_ex10
+
+            App_ex13:
+                is_bundle: false
+                dir: '%kernel.project_dir%/src/ex13/Entity'
+                prefix: 'App\\ex13\\Entity'
+                alias: App_ex13
+
 when@test:
     doctrine:
         dbal:

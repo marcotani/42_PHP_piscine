@@ -1,0 +1,25 @@
+<h1>ex13 - Employee List (CRUD)</h1>
+<a href="{{ path('ex13_create') }}">Create Employee</a>
+{% if message %}<div style="color:green;">{{ message }}</div>{% endif %}
+{% if error %}<div style="color:red;">{{ error }}</div>{% endif %}
+<table border="1" cellpadding="4" style="border-collapse:collapse; margin-top:1em;">
+  <tr>
+    <th>ID</th><th>Firstname</th><th>Lastname</th><th>Email</th><th>Active</th><th>Manager</th><th>Actions</th>
+  </tr>
+  {% for e in employees %}
+    <tr>
+      <td>{{ e.id }}</td>
+      <td>{{ e.firstname }}</td>
+      <td>{{ e.lastname }}</td>
+      <td>{{ e.email }}</td>
+      <td>{{ e.active ? 'Yes' : 'No' }}</td>
+      <td>{{ e.manager ? e.manager.firstname ~ ' ' ~ e.manager.lastname : '' }}</td>
+      <td>
+        <a href="{{ path('ex13_edit', {'id': e.id}) }}">Edit</a> |
+        <a href="{{ path('ex13_delete', {'id': e.id}) }}" onclick="return confirm('Delete?');">Delete</a>
+      </td>
+    </tr>
+  {% else %}
+    <tr><td colspan="7">No employees</td></tr>
+  {% endfor %}
+</table>

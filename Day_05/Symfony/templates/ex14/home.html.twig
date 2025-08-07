@@ -1,0 +1,25 @@
+<h1>ex14 - SQL Injection Demo</h1>
+<div style="margin-bottom:1em; color:{{ tableStatus starts with 'Table exists' ? 'green' : 'red' }};">
+  {{ tableStatus }}
+</div>
+{% if message %}<div style="color:blue;">{{ message }}</div>{% endif %}
+<form id="vulnForm" method="post" action="{{ path('ex14_insert') }}" style="margin-bottom:1em;">
+  <label>Content: <input name="content" id="contentInput"></label>
+  <button type="submit">Insert</button>
+</form>
+<table border="1" cellpadding="4" style="border-collapse:collapse;">
+  <tr><th>ID</th><th>Content</th></tr>
+  {% for row in rows %}
+    <tr><td>{{ row.id }}</td><td>{{ row.content }}</td></tr>
+  {% else %}
+    <tr><td colspan="2">No data</td></tr>
+  {% endfor %}
+</table>
+<script>
+// Functional SQL injection example: on submit, append malicious input
+// Try: test'); DROP TABLE ex14_vuln; --
+document.getElementById('vulnForm').addEventListener('submit', function(e) {
+  // Uncomment to auto-inject:
+  // document.getElementById('contentInput').value = "test'); DROP TABLE ex14_vuln; --";
+});
+</script>

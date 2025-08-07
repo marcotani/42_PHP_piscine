@@ -1,0 +1,37 @@
+<h1>ex09 - ORM Entities & Relations</h1>
+{% if message %}
+    <div style="color: green;">{{ message }}</div>
+{% endif %}
+{% if error %}
+    <div style="color: red;">{{ error }}</div>
+{% endif %}
+<ul>
+    <li><a href="{{ path('ex09_create_schema') }}">Create database schema (all tables)</a></li>
+    <li><a href="{{ path('ex09_add_marital_status') }}">Add marital_status field (migration)</a></li>
+    <li><a href="{{ path('ex09_create_person') }}">Create new person</a></li>
+    <li><a href="{{ path('ex09_schema_info') }}">Show schema info</a></li>
+</ul>
+
+{% if persons is defined and persons|length > 0 %}
+<h2>Persons</h2>
+<table border="1" cellpadding="4" style="border-collapse:collapse; margin-bottom:1em;">
+    <tr>
+        <th>ID</th><th>Username</th><th>Name</th><th>Email</th><th>Actions</th>
+    </tr>
+    {% for person in persons %}
+        <tr>
+            <td>{{ person.id }}</td>
+            <td>{{ person.username }}</td>
+            <td>{{ person.name }}</td>
+            <td>{{ person.email }}</td>
+            <td>
+                <a href="{{ path('ex09_edit_person', {'id': person.id}) }}">Edit</a> |
+                <a href="{{ path('ex09_manage_bank_account', {'id': person.id}) }}">Manage Bank Account</a> |
+                <a href="{{ path('ex09_manage_addresses', {'id': person.id}) }}">Manage Addresses</a>
+            </td>
+        </tr>
+    {% endfor %}
+</table>
+{% elseif persons is defined %}
+<p>No persons found. <a href="{{ path('ex09_create_person') }}">Create the first person</a>.</p>
+{% endif %}

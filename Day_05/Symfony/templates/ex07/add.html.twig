@@ -1,7 +1,7 @@
 {% extends 'base.html.twig' %}
-{% block title %}Edit User (ex07){% endblock %}
+{% block title %}Add User (ex07){% endblock %}
 {% block body %}
-<h1>Edit User (ex07 - ORM)</h1>
+<h1>Add User (ex07 - ORM)</h1>
 {% if message %}<div style="color:green">{{ message }}</div>{% endif %}
 {% if error %}<div style="color:red">{{ error }}</div>{% endif %}
 {{ form_start(form) }}
@@ -11,7 +11,7 @@
     <label>Enable:</label> {{ form_widget(form.enable) }}<br><br>
     <label>Birthdate:</label> {{ form_widget(form.birthdate) }}<br><br>
     <label>Address:</label><br> {{ form_widget(form.address) }}<br><br>
-    <button type="submit">Update User</button>
+    <button type="submit">Add User</button>
 {{ form_end(form) }}
 <p><a href="{{ path('ex07_list') }}">Back to List</a></p>
 {% endblock %}

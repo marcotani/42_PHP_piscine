@@ -1,0 +1,517 @@
+[Thu Aug  7 19:20:06 2025] PHP 8.2.29 Development Server (http://0.0.0.0:8000) started
+[Thu Aug  7 19:20:12 2025] 127.0.0.1:51602 Accepted
+[Thu Aug  7 19:20:13 2025] 127.0.0.1:51602 [404]: GET /
+[Thu Aug  7 19:20:13 2025] 127.0.0.1:51602 Closing
+[Thu Aug  7 19:20:13 2025] 127.0.0.1:49756 Accepted
+[Thu Aug  7 19:20:13 2025] 127.0.0.1:49756 [200]: GET /_wdt/aa06ef
+[Thu Aug  7 19:20:13 2025] 127.0.0.1:49756 Closing
+[Thu Aug  7 19:20:18 2025] 127.0.0.1:49764 Accepted
+[Thu Aug  7 19:20:18 2025] 127.0.0.1:49764 [200]: GET /ex08
+[Thu Aug  7 19:20:18 2025] 127.0.0.1:49764 Closing
+[Thu Aug  7 19:20:18 2025] 127.0.0.1:49780 Accepted
+[Thu Aug  7 19:20:18 2025] 127.0.0.1:49780 [200]: GET /_wdt/d62798
+[Thu Aug  7 19:20:18 2025] 127.0.0.1:49780 Closing
+[Thu Aug  7 19:20:20 2025] 127.0.0.1:49796 Accepted
+[Thu Aug  7 19:20:20 2025] 127.0.0.1:49796 [200]: GET /ex09
+[Thu Aug  7 19:20:20 2025] 127.0.0.1:49796 Closing
+[Thu Aug  7 19:20:20 2025] 127.0.0.1:49798 Accepted
+[Thu Aug  7 19:20:20 2025] 127.0.0.1:49798 [200]: GET /_wdt/519b24
+[Thu Aug  7 19:20:20 2025] 127.0.0.1:49798 Closing
+[Thu Aug  7 19:20:24 2025] 127.0.0.1:51908 Accepted
+[Thu Aug  7 19:20:24 2025] 127.0.0.1:51908 [200]: GET /ex09/schema-info
+[Thu Aug  7 19:20:24 2025] 127.0.0.1:51908 Closing
+[Thu Aug  7 19:20:24 2025] 127.0.0.1:51922 Accepted
+[Thu Aug  7 19:20:24 2025] 127.0.0.1:51922 [200]: GET /_wdt/811757
+[Thu Aug  7 19:20:24 2025] 127.0.0.1:51922 Closing
+[Thu Aug  7 19:20:28 2025] 127.0.0.1:51926 Accepted
+[Thu Aug  7 19:20:28 2025] 127.0.0.1:51926 [404]: GET /favicon.ico - No such file or directory
+[Thu Aug  7 19:20:28 2025] 127.0.0.1:51926 Closing
+[Thu Aug  7 19:20:47 2025] 127.0.0.1:56518 Accepted
+[Thu Aug  7 19:20:47 2025] 127.0.0.1:56518 [301]: GET /ex09/
+[Thu Aug  7 19:20:47 2025] 127.0.0.1:56518 Closing
+[Thu Aug  7 19:20:52 2025] 127.0.0.1:56532 Accepted
+[Thu Aug  7 19:20:52 2025] 127.0.0.1:56532 [200]: GET /ex09/schema-info
+[Thu Aug  7 19:20:52 2025] 127.0.0.1:56532 Closing
+[Thu Aug  7 19:22:31 2025] 127.0.0.1:47382 Accepted
+[Thu Aug  7 19:22:31 2025] 127.0.0.1:47382 [301]: GET /ex09/
+[Thu Aug  7 19:22:31 2025] 127.0.0.1:47382 Closing
+[Thu Aug  7 19:22:36 2025] 127.0.0.1:36272 Accepted
+[Thu Aug  7 19:22:36 2025] 127.0.0.1:36272 [200]: GET /ex09/schema-info
+[Thu Aug  7 19:22:36 2025] 127.0.0.1:36272 Closing
+[Thu Aug  7 19:22:43 2025] 127.0.0.1:36286 Accepted
+[Thu Aug  7 19:22:43 2025] 127.0.0.1:36286 [200]: GET /ex09/create-person
+[Thu Aug  7 19:22:43 2025] 127.0.0.1:36286 Closing
+[Thu Aug  7 19:23:42 2025] 127.0.0.1:37436 Accepted
+[Thu Aug  7 19:23:42 2025] 127.0.0.1:37436 [500]: GET /ex09
+[Thu Aug  7 19:23:42 2025] 127.0.0.1:37436 Closing
+[Thu Aug  7 19:23:42 2025] 127.0.0.1:37446 Accepted
+[Thu Aug  7 19:23:42 2025] 127.0.0.1:37446 [200]: GET /_wdt/c3436f
+[Thu Aug  7 19:23:42 2025] 127.0.0.1:37446 Closing
+[Thu Aug  7 19:25:08 2025] 127.0.0.1:43504 Accepted
+[Thu Aug  7 19:25:08 2025] 127.0.0.1:43504 [301]: GET /ex09/
+[Thu Aug  7 19:25:08 2025] 127.0.0.1:43504 Closing
+[Thu Aug  7 19:26:24 2025] 127.0.0.1:33124 Accepted
+[Thu Aug  7 19:26:25 2025] 127.0.0.1:33124 [200]: GET /ex07
+[Thu Aug  7 19:26:25 2025] 127.0.0.1:33124 Closing
+[Thu Aug  7 19:26:25 2025] 127.0.0.1:33136 Accepted
+[Thu Aug  7 19:26:25 2025] 127.0.0.1:33136 [200]: GET /_wdt/200153
+[Thu Aug  7 19:26:25 2025] 127.0.0.1:33136 Closing
+[Thu Aug  7 19:26:28 2025] 127.0.0.1:33144 Accepted
+[Thu Aug  7 19:26:28 2025] 127.0.0.1:33144 [200]: GET /ex07/add
+[Thu Aug  7 19:26:28 2025] 127.0.0.1:33144 Closing
+[Thu Aug  7 19:26:28 2025] 127.0.0.1:33148 Accepted
+[Thu Aug  7 19:26:28 2025] 127.0.0.1:33148 [200]: GET /_wdt/99864f
+[Thu Aug  7 19:26:28 2025] 127.0.0.1:33148 Closing
+[Thu Aug  7 19:26:54 2025] 127.0.0.1:38360 Accepted
+[Thu Aug  7 19:26:55 2025] 127.0.0.1:38360 [500]: GET /ex05
+[Thu Aug  7 19:26:55 2025] 127.0.0.1:38360 Closing
+[Thu Aug  7 19:26:55 2025] 127.0.0.1:38370 Accepted
+[Thu Aug  7 19:26:55 2025] 127.0.0.1:38370 [200]: GET /_wdt/184d0c
+[Thu Aug  7 19:26:55 2025] 127.0.0.1:38370 Closing
+[Thu Aug  7 19:27:02 2025] 127.0.0.1:52030 Accepted
+[Thu Aug  7 19:27:05 2025] 127.0.0.1:52030 [200]: GET /ex04
+[Thu Aug  7 19:27:05 2025] 127.0.0.1:52030 Closing
+[Thu Aug  7 19:27:05 2025] 127.0.0.1:52042 Accepted
+[Thu Aug  7 19:27:05 2025] 127.0.0.1:52042 [200]: GET /_wdt/3ed1f5
+[Thu Aug  7 19:27:05 2025] 127.0.0.1:52042 Closing
+[Thu Aug  7 19:27:07 2025] 127.0.0.1:52046 Accepted
+[Thu Aug  7 19:27:07 2025] 127.0.0.1:52046 [500]: GET /ex05
+[Thu Aug  7 19:27:07 2025] 127.0.0.1:52046 Closing
+[Thu Aug  7 19:27:07 2025] 127.0.0.1:52056 Accepted
+[Thu Aug  7 19:27:07 2025] 127.0.0.1:52056 [200]: GET /_wdt/16c44f
+[Thu Aug  7 19:27:07 2025] 127.0.0.1:52056 Closing
+[Thu Aug  7 19:27:09 2025] 127.0.0.1:52064 Accepted
+[Thu Aug  7 19:27:10 2025] 127.0.0.1:52064 [200]: GET /ex06
+[Thu Aug  7 19:27:10 2025] 127.0.0.1:52064 Closing
+[Thu Aug  7 19:27:10 2025] 127.0.0.1:52072 Accepted
+[Thu Aug  7 19:27:10 2025] 127.0.0.1:52072 [200]: GET /_wdt/7afcde
+[Thu Aug  7 19:27:10 2025] 127.0.0.1:52072 Closing
+[Thu Aug  7 19:27:12 2025] 127.0.0.1:52352 Accepted
+[Thu Aug  7 19:27:12 2025] 127.0.0.1:52352 [200]: GET /ex06/add
+[Thu Aug  7 19:27:12 2025] 127.0.0.1:52352 Closing
+[Thu Aug  7 19:27:12 2025] 127.0.0.1:52368 Accepted
+[Thu Aug  7 19:27:12 2025] 127.0.0.1:52368 [200]: GET /_wdt/30130d
+[Thu Aug  7 19:27:12 2025] 127.0.0.1:52368 Closing
+[Thu Aug  7 19:27:15 2025] 127.0.0.1:52376 Accepted
+[Thu Aug  7 19:27:15 2025] 127.0.0.1:52376 [500]: GET /ex07
+[Thu Aug  7 19:27:15 2025] 127.0.0.1:52376 Closing
+[Thu Aug  7 19:27:15 2025] 127.0.0.1:52382 Accepted
+[Thu Aug  7 19:27:15 2025] 127.0.0.1:52382 [200]: GET /_wdt/761b28
+[Thu Aug  7 19:27:15 2025] 127.0.0.1:52382 Closing
+[Thu Aug  7 19:27:37 2025] 127.0.0.1:44590 Accepted
+[Thu Aug  7 19:27:37 2025] 127.0.0.1:44590 [200]: GET /ex07
+[Thu Aug  7 19:27:37 2025] 127.0.0.1:44590 Closing
+[Thu Aug  7 19:27:37 2025] 127.0.0.1:44602 Accepted
+[Thu Aug  7 19:27:37 2025] 127.0.0.1:44602 [200]: GET /_wdt/d3192f
+[Thu Aug  7 19:27:37 2025] 127.0.0.1:44602 Closing
+[Thu Aug  7 19:27:40 2025] 127.0.0.1:44612 Accepted
+[Thu Aug  7 19:27:40 2025] 127.0.0.1:44612 [500]: GET /ex05
+[Thu Aug  7 19:27:40 2025] 127.0.0.1:44612 Closing
+[Thu Aug  7 19:27:40 2025] 127.0.0.1:44614 Accepted
+[Thu Aug  7 19:27:40 2025] 127.0.0.1:44614 [200]: GET /_wdt/1f6066
+[Thu Aug  7 19:27:40 2025] 127.0.0.1:44614 Closing
+[Thu Aug  7 19:27:43 2025] 127.0.0.1:57174 Accepted
+[Thu Aug  7 19:27:43 2025] 127.0.0.1:57174 [200]: GET /ex06
+[Thu Aug  7 19:27:43 2025] 127.0.0.1:57174 Closing
+[Thu Aug  7 19:27:43 2025] 127.0.0.1:57184 Accepted
+[Thu Aug  7 19:27:43 2025] 127.0.0.1:57184 [200]: GET /_wdt/1b0244
+[Thu Aug  7 19:27:43 2025] 127.0.0.1:57184 Closing
+[Thu Aug  7 19:27:45 2025] 127.0.0.1:57194 Accepted
+[Thu Aug  7 19:27:45 2025] 127.0.0.1:57194 [200]: GET /ex07
+[Thu Aug  7 19:27:45 2025] 127.0.0.1:57194 Closing
+[Thu Aug  7 19:27:45 2025] 127.0.0.1:57210 Accepted
+[Thu Aug  7 19:27:45 2025] 127.0.0.1:57210 [200]: GET /_wdt/e2ae7c
+[Thu Aug  7 19:27:45 2025] 127.0.0.1:57210 Closing
+[Thu Aug  7 19:27:48 2025] 127.0.0.1:57214 Accepted
+[Thu Aug  7 19:27:48 2025] 127.0.0.1:57214 [200]: GET /ex08
+[Thu Aug  7 19:27:48 2025] 127.0.0.1:57214 Closing
+[Thu Aug  7 19:27:48 2025] 127.0.0.1:57218 Accepted
+[Thu Aug  7 19:27:48 2025] 127.0.0.1:57218 [200]: GET /_wdt/7d4382
+[Thu Aug  7 19:27:48 2025] 127.0.0.1:57218 Closing
+[Thu Aug  7 19:27:52 2025] 127.0.0.1:57228 Accepted
+[Thu Aug  7 19:27:52 2025] 127.0.0.1:57228 [500]: GET /ex09
+[Thu Aug  7 19:27:52 2025] 127.0.0.1:57228 Closing
+[Thu Aug  7 19:27:52 2025] 127.0.0.1:57244 Accepted
+[Thu Aug  7 19:27:52 2025] 127.0.0.1:57244 [200]: GET /_wdt/0c1df2
+[Thu Aug  7 19:27:52 2025] 127.0.0.1:57244 Closing
+[Thu Aug  7 19:29:47 2025] 127.0.0.1:44198 Accepted
+[Thu Aug  7 19:29:47 2025] 127.0.0.1:44198 [200]: GET /ex08
+[Thu Aug  7 19:29:47 2025] 127.0.0.1:44198 Closing
+[Thu Aug  7 19:29:47 2025] 127.0.0.1:44214 Accepted
+[Thu Aug  7 19:29:47 2025] 127.0.0.1:44214 [200]: GET /_wdt/dc6ac1
+[Thu Aug  7 19:29:47 2025] 127.0.0.1:44214 Closing
+[Thu Aug  7 19:29:55 2025] 127.0.0.1:44218 Accepted
+[Thu Aug  7 19:29:55 2025] 127.0.0.1:44218 [302]: GET /ex08/create-persons-table
+[Thu Aug  7 19:29:55 2025] 127.0.0.1:44218 Closing
+[Thu Aug  7 19:29:55 2025] 127.0.0.1:44230 Accepted
+[Thu Aug  7 19:29:55 2025] 127.0.0.1:44230 [200]: GET /ex08?message=Persons%20table%20created%20successfully!
+[Thu Aug  7 19:29:55 2025] 127.0.0.1:44230 Closing
+[Thu Aug  7 19:29:56 2025] 127.0.0.1:50176 Accepted
+[Thu Aug  7 19:29:56 2025] 127.0.0.1:50176 [200]: GET /_wdt/dade71
+[Thu Aug  7 19:29:56 2025] 127.0.0.1:50176 Closing
+[Thu Aug  7 19:30:04 2025] 127.0.0.1:50188 Accepted
+[Thu Aug  7 19:30:04 2025] 127.0.0.1:50188 [302]: GET /ex08/alter-persons-table
+[Thu Aug  7 19:30:04 2025] 127.0.0.1:50188 Closing
+[Thu Aug  7 19:30:04 2025] 127.0.0.1:50202 Accepted
+[Thu Aug  7 19:30:04 2025] 127.0.0.1:50202 [200]: GET /ex08?message=Marital%20status%20column%20already%20exists!
+[Thu Aug  7 19:30:04 2025] 127.0.0.1:50202 Closing
+[Thu Aug  7 19:30:04 2025] 127.0.0.1:50208 Accepted
+[Thu Aug  7 19:30:04 2025] 127.0.0.1:50208 [200]: GET /_wdt/075724
+[Thu Aug  7 19:30:04 2025] 127.0.0.1:50208 Closing
+[Thu Aug  7 19:30:11 2025] 127.0.0.1:59328 Accepted
+[Thu Aug  7 19:30:11 2025] 127.0.0.1:59328 [302]: GET /ex08/create-related-tables
+[Thu Aug  7 19:30:11 2025] 127.0.0.1:59328 Closing
+[Thu Aug  7 19:30:11 2025] 127.0.0.1:59334 Accepted
+[Thu Aug  7 19:30:11 2025] 127.0.0.1:59334 [200]: GET /ex08?message=Bank%20accounts%20and%20addresses%20tables%20created%20successfully!
+[Thu Aug  7 19:30:11 2025] 127.0.0.1:59334 Closing
+[Thu Aug  7 19:30:11 2025] 127.0.0.1:59348 Accepted
+[Thu Aug  7 19:30:11 2025] 127.0.0.1:59348 [200]: GET /_wdt/621d32
+[Thu Aug  7 19:30:11 2025] 127.0.0.1:59348 Closing
+[Thu Aug  7 19:31:22 2025] 127.0.0.1:38170 Accepted
+[Thu Aug  7 19:31:22 2025] 127.0.0.1:38170 [301]: GET /ex09/
+[Thu Aug  7 19:31:22 2025] 127.0.0.1:38170 Closing
+[Thu Aug  7 19:31:29 2025] 127.0.0.1:36460 Accepted
+[Thu Aug  7 19:31:29 2025] 127.0.0.1:36460 [301]: GET /ex07/
+[Thu Aug  7 19:31:29 2025] 127.0.0.1:36460 Closing
+[Thu Aug  7 19:31:33 2025] 127.0.0.1:36474 Accepted
+[Thu Aug  7 19:31:33 2025] 127.0.0.1:36474 [301]: GET /ex08/
+[Thu Aug  7 19:31:33 2025] 127.0.0.1:36474 Closing
+[Thu Aug  7 19:31:54 2025] 127.0.0.1:54606 Accepted
+[Thu Aug  7 19:31:54 2025] 127.0.0.1:54606 [200]: GET /ex09/schema-info
+[Thu Aug  7 19:31:54 2025] 127.0.0.1:54606 Closing
+[Thu Aug  7 19:33:11 2025] 127.0.0.1:51034 Accepted
+[Thu Aug  7 19:33:11 2025] 127.0.0.1:51034 [200]: GET /ex08?message=Bank%20accounts%20and%20addresses%20tables%20created%20successfully!
+[Thu Aug  7 19:33:11 2025] 127.0.0.1:51034 Closing
+[Thu Aug  7 19:33:11 2025] 127.0.0.1:51046 Accepted
+[Thu Aug  7 19:33:11 2025] 127.0.0.1:51046 [200]: GET /_wdt/0b3421
+[Thu Aug  7 19:33:11 2025] 127.0.0.1:51046 Closing
+[Thu Aug  7 19:33:22 2025] 127.0.0.1:34076 Accepted
+[Thu Aug  7 19:33:22 2025] 127.0.0.1:34076 [200]: GET /ex08
+[Thu Aug  7 19:33:22 2025] 127.0.0.1:34076 Closing
+[Thu Aug  7 19:33:22 2025] 127.0.0.1:34090 Accepted
+[Thu Aug  7 19:33:22 2025] 127.0.0.1:34090 [200]: GET /_wdt/9d05f5
+[Thu Aug  7 19:33:22 2025] 127.0.0.1:34090 Closing
+[Thu Aug  7 19:34:00 2025] 127.0.0.1:48574 Accepted
+[Thu Aug  7 19:34:00 2025] 127.0.0.1:48574 [200]: GET /ex08
+[Thu Aug  7 19:34:00 2025] 127.0.0.1:48574 Closing
+[Thu Aug  7 19:34:00 2025] 127.0.0.1:48576 Accepted
+[Thu Aug  7 19:34:00 2025] 127.0.0.1:48576 [200]: GET /_wdt/675358
+[Thu Aug  7 19:34:00 2025] 127.0.0.1:48576 Closing
+[Thu Aug  7 19:34:59 2025] 127.0.0.1:48494 Accepted
+[Thu Aug  7 19:34:59 2025] 127.0.0.1:48494 [200]: GET /ex04
+[Thu Aug  7 19:34:59 2025] 127.0.0.1:48494 Closing
+[Thu Aug  7 19:34:59 2025] 127.0.0.1:48498 Accepted
+[Thu Aug  7 19:34:59 2025] 127.0.0.1:48498 [200]: GET /_wdt/53cf0e
+[Thu Aug  7 19:34:59 2025] 127.0.0.1:48498 Closing
+[Thu Aug  7 19:35:28 2025] 127.0.0.1:51232 Accepted
+[Thu Aug  7 19:35:28 2025] 127.0.0.1:51232 [200]: GET /ex04
+[Thu Aug  7 19:35:28 2025] 127.0.0.1:51232 Closing
+[Thu Aug  7 19:35:28 2025] 127.0.0.1:51240 Accepted
+[Thu Aug  7 19:35:28 2025] 127.0.0.1:51240 [200]: GET /_wdt/610624
+[Thu Aug  7 19:35:28 2025] 127.0.0.1:51240 Closing
+[Thu Aug  7 19:35:38 2025] 127.0.0.1:33734 Accepted
+[Thu Aug  7 19:35:38 2025] 127.0.0.1:33734 [500]: GET /ex05
+[Thu Aug  7 19:35:38 2025] 127.0.0.1:33734 Closing
+[Thu Aug  7 19:35:38 2025] 127.0.0.1:33740 Accepted
+[Thu Aug  7 19:35:38 2025] 127.0.0.1:33740 [200]: GET /_wdt/c8e146
+[Thu Aug  7 19:35:38 2025] 127.0.0.1:33740 Closing
+[Thu Aug  7 19:35:40 2025] 127.0.0.1:33742 Accepted
+[Thu Aug  7 19:35:40 2025] 127.0.0.1:33742 [200]: GET /ex03
+[Thu Aug  7 19:35:40 2025] 127.0.0.1:33742 Closing
+[Thu Aug  7 19:35:40 2025] 127.0.0.1:33746 Accepted
+[Thu Aug  7 19:35:40 2025] 127.0.0.1:33746 [200]: GET /_wdt/7d0bce
+[Thu Aug  7 19:35:40 2025] 127.0.0.1:33746 Closing
+[Thu Aug  7 19:35:52 2025] 127.0.0.1:55492 Accepted
+[Thu Aug  7 19:35:52 2025] 127.0.0.1:55492 [200]: GET /ex06
+[Thu Aug  7 19:35:52 2025] 127.0.0.1:55492 Closing
+[Thu Aug  7 19:35:52 2025] 127.0.0.1:55494 Accepted
+[Thu Aug  7 19:35:52 2025] 127.0.0.1:55494 [200]: GET /_wdt/f3afd5
+[Thu Aug  7 19:35:52 2025] 127.0.0.1:55494 Closing
+[Thu Aug  7 19:35:58 2025] 127.0.0.1:34990 Accepted
+[Thu Aug  7 19:35:58 2025] 127.0.0.1:34990 [200]: GET /ex07
+[Thu Aug  7 19:35:58 2025] 127.0.0.1:34990 Closing
+[Thu Aug  7 19:35:58 2025] 127.0.0.1:35002 Accepted
+[Thu Aug  7 19:35:58 2025] 127.0.0.1:35002 [200]: GET /_wdt/da599d
+[Thu Aug  7 19:35:58 2025] 127.0.0.1:35002 Closing
+[Thu Aug  7 19:36:05 2025] 127.0.0.1:57688 Accepted
+[Thu Aug  7 19:36:05 2025] 127.0.0.1:57688 [200]: GET /ex07/add
+[Thu Aug  7 19:36:05 2025] 127.0.0.1:57688 Closing
+[Thu Aug  7 19:36:05 2025] 127.0.0.1:57694 Accepted
+[Thu Aug  7 19:36:05 2025] 127.0.0.1:57694 [200]: GET /_wdt/579186
+[Thu Aug  7 19:36:05 2025] 127.0.0.1:57694 Closing
+[Thu Aug  7 19:36:17 2025] 127.0.0.1:37980 Accepted
+[Thu Aug  7 19:36:17 2025] 127.0.0.1:37980 [200]: POST /ex07/add
+[Thu Aug  7 19:36:17 2025] 127.0.0.1:37980 Closing
+[Thu Aug  7 19:36:17 2025] 127.0.0.1:37996 Accepted
+[Thu Aug  7 19:36:17 2025] 127.0.0.1:37996 [200]: GET /_wdt/5289a0
+[Thu Aug  7 19:36:17 2025] 127.0.0.1:37996 Closing
+[Thu Aug  7 19:36:31 2025] 127.0.0.1:47598 Accepted
+[Thu Aug  7 19:36:31 2025] 127.0.0.1:47598 [302]: POST /ex07/add
+[Thu Aug  7 19:36:31 2025] 127.0.0.1:47598 Closing
+[Thu Aug  7 19:36:31 2025] 127.0.0.1:47606 Accepted
+[Thu Aug  7 19:36:31 2025] 127.0.0.1:47606 [200]: GET /ex07?message=User%20added%20successfully.
+[Thu Aug  7 19:36:31 2025] 127.0.0.1:47606 Closing
+[Thu Aug  7 19:36:31 2025] 127.0.0.1:47614 Accepted
+[Thu Aug  7 19:36:31 2025] 127.0.0.1:47614 [200]: GET /_wdt/1e88c2
+[Thu Aug  7 19:36:31 2025] 127.0.0.1:47614 Closing
+[Thu Aug  7 19:36:59 2025] 127.0.0.1:56220 Accepted
+[Thu Aug  7 19:36:59 2025] 127.0.0.1:56220 [200]: GET /ex03
+[Thu Aug  7 19:36:59 2025] 127.0.0.1:56220 Closing
+[Thu Aug  7 19:36:59 2025] 127.0.0.1:56236 Accepted
+[Thu Aug  7 19:36:59 2025] 127.0.0.1:56236 [200]: GET /_wdt/ff602c
+[Thu Aug  7 19:36:59 2025] 127.0.0.1:56236 Closing
+[Thu Aug  7 19:37:02 2025] 127.0.0.1:56238 Accepted
+[Thu Aug  7 19:37:03 2025] 127.0.0.1:56238 [200]: GET /ex02
+[Thu Aug  7 19:37:03 2025] 127.0.0.1:56238 Closing
+[Thu Aug  7 19:37:03 2025] 127.0.0.1:56252 Accepted
+[Thu Aug  7 19:37:03 2025] 127.0.0.1:56252 [200]: GET /_wdt/bd6b2c
+[Thu Aug  7 19:37:03 2025] 127.0.0.1:56252 Closing
+[Thu Aug  7 19:37:23 2025] 127.0.0.1:35524 Accepted
+[Thu Aug  7 19:37:23 2025] 127.0.0.1:35524 [200]: GET /ex08
+[Thu Aug  7 19:37:23 2025] 127.0.0.1:35524 Closing
+[Thu Aug  7 19:37:23 2025] 127.0.0.1:35534 Accepted
+[Thu Aug  7 19:37:23 2025] 127.0.0.1:35534 [200]: GET /_wdt/57f2c0
+[Thu Aug  7 19:37:23 2025] 127.0.0.1:35534 Closing
+[Thu Aug  7 19:37:41 2025] 127.0.0.1:51886 Accepted
+[Thu Aug  7 19:37:41 2025] 127.0.0.1:51886 [200]: GET /ex08
+[Thu Aug  7 19:37:41 2025] 127.0.0.1:51886 Closing
+[Thu Aug  7 19:37:41 2025] 127.0.0.1:51898 Accepted
+[Thu Aug  7 19:37:41 2025] 127.0.0.1:51898 [200]: GET /_wdt/8bb456
+[Thu Aug  7 19:37:41 2025] 127.0.0.1:51898 Closing
+[Thu Aug  7 19:37:47 2025] 127.0.0.1:51904 Accepted
+[Thu Aug  7 19:37:47 2025] 127.0.0.1:51904 [302]: GET /ex08/create-persons-table
+[Thu Aug  7 19:37:47 2025] 127.0.0.1:51904 Closing
+[Thu Aug  7 19:37:47 2025] 127.0.0.1:51914 Accepted
+[Thu Aug  7 19:37:47 2025] 127.0.0.1:51914 [200]: GET /ex08?message=Persons%20table%20created%20successfully!
+[Thu Aug  7 19:37:47 2025] 127.0.0.1:51914 Closing
+[Thu Aug  7 19:37:47 2025] 127.0.0.1:51926 Accepted
+[Thu Aug  7 19:37:47 2025] 127.0.0.1:51926 [200]: GET /_wdt/66cc83
+[Thu Aug  7 19:37:47 2025] 127.0.0.1:51926 Closing
+[Thu Aug  7 19:37:52 2025] 127.0.0.1:40654 Accepted
+[Thu Aug  7 19:37:52 2025] 127.0.0.1:40654 [200]: GET /ex08/show-tables
+[Thu Aug  7 19:37:52 2025] 127.0.0.1:40654 Closing
+[Thu Aug  7 19:37:52 2025] 127.0.0.1:40666 Accepted
+[Thu Aug  7 19:37:52 2025] 127.0.0.1:40666 [200]: GET /_wdt/b7a0af
+[Thu Aug  7 19:37:52 2025] 127.0.0.1:40666 Closing
+[Thu Aug  7 19:38:01 2025] 127.0.0.1:51380 Accepted
+[Thu Aug  7 19:38:01 2025] 127.0.0.1:51380 [302]: GET /ex08/alter-persons-table
+[Thu Aug  7 19:38:01 2025] 127.0.0.1:51380 Closing
+[Thu Aug  7 19:38:01 2025] 127.0.0.1:51394 Accepted
+[Thu Aug  7 19:38:01 2025] 127.0.0.1:51394 [200]: GET /ex08?message=Marital%20status%20column%20added%20successfully!
+[Thu Aug  7 19:38:01 2025] 127.0.0.1:51394 Closing
+[Thu Aug  7 19:38:01 2025] 127.0.0.1:51406 Accepted
+[Thu Aug  7 19:38:01 2025] 127.0.0.1:51406 [200]: GET /_wdt/8a7cb7
+[Thu Aug  7 19:38:01 2025] 127.0.0.1:51406 Closing
+[Thu Aug  7 19:38:02 2025] 127.0.0.1:51422 Accepted
+[Thu Aug  7 19:38:02 2025] 127.0.0.1:51422 [200]: GET /ex08/show-tables
+[Thu Aug  7 19:38:02 2025] 127.0.0.1:51422 Closing
+[Thu Aug  7 19:38:02 2025] 127.0.0.1:51428 Accepted
+[Thu Aug  7 19:38:02 2025] 127.0.0.1:51428 [200]: GET /_wdt/c9c802
+[Thu Aug  7 19:38:02 2025] 127.0.0.1:51428 Closing
+[Thu Aug  7 19:38:07 2025] 127.0.0.1:51444 Accepted
+[Thu Aug  7 19:38:07 2025] 127.0.0.1:51444 [302]: GET /ex08/create-related-tables
+[Thu Aug  7 19:38:07 2025] 127.0.0.1:51444 Closing
+[Thu Aug  7 19:38:07 2025] 127.0.0.1:51450 Accepted
+[Thu Aug  7 19:38:07 2025] 127.0.0.1:51450 [200]: GET /ex08?message=Bank%20accounts%20and%20addresses%20tables%20created%20successfully!
+[Thu Aug  7 19:38:07 2025] 127.0.0.1:51450 Closing
+[Thu Aug  7 19:38:07 2025] 127.0.0.1:51456 Accepted
+[Thu Aug  7 19:38:07 2025] 127.0.0.1:51456 [200]: GET /_wdt/1450ed
+[Thu Aug  7 19:38:07 2025] 127.0.0.1:51456 Closing
+[Thu Aug  7 19:38:08 2025] 127.0.0.1:44814 Accepted
+[Thu Aug  7 19:38:08 2025] 127.0.0.1:44814 [200]: GET /ex08/show-tables
+[Thu Aug  7 19:38:08 2025] 127.0.0.1:44814 Closing
+[Thu Aug  7 19:38:08 2025] 127.0.0.1:44820 Accepted
+[Thu Aug  7 19:38:08 2025] 127.0.0.1:44820 [200]: GET /_wdt/828c4f
+[Thu Aug  7 19:38:08 2025] 127.0.0.1:44820 Closing
+[Thu Aug  7 19:38:11 2025] 127.0.0.1:44830 Accepted
+[Thu Aug  7 19:38:11 2025] 127.0.0.1:44830 [200]: GET /ex08
+[Thu Aug  7 19:38:11 2025] 127.0.0.1:44830 Closing
+[Thu Aug  7 19:38:11 2025] 127.0.0.1:44844 Accepted
+[Thu Aug  7 19:38:11 2025] 127.0.0.1:44844 [200]: GET /_wdt/6196ae
+[Thu Aug  7 19:38:11 2025] 127.0.0.1:44844 Closing
+[Thu Aug  7 19:38:13 2025] 127.0.0.1:44848 Accepted
+[Thu Aug  7 19:38:14 2025] 127.0.0.1:44848 [302]: GET /ex08/create-relationships
+[Thu Aug  7 19:38:14 2025] 127.0.0.1:44848 Closing
+[Thu Aug  7 19:38:14 2025] 127.0.0.1:44864 Accepted
+[Thu Aug  7 19:38:14 2025] 127.0.0.1:44864 [200]: GET /ex08?message=Foreign%20key%20relationships%20created%20successfully!
+[Thu Aug  7 19:38:14 2025] 127.0.0.1:44864 Closing
+[Thu Aug  7 19:38:14 2025] 127.0.0.1:44876 Accepted
+[Thu Aug  7 19:38:14 2025] 127.0.0.1:44876 [200]: GET /_wdt/1b7b98
+[Thu Aug  7 19:38:14 2025] 127.0.0.1:44876 Closing
+[Thu Aug  7 19:38:16 2025] 127.0.0.1:44888 Accepted
+[Thu Aug  7 19:38:16 2025] 127.0.0.1:44888 [200]: GET /ex08/show-tables
+[Thu Aug  7 19:38:16 2025] 127.0.0.1:44888 Closing
+[Thu Aug  7 19:38:16 2025] 127.0.0.1:44890 Accepted
+[Thu Aug  7 19:38:16 2025] 127.0.0.1:44890 [200]: GET /_wdt/683c39
+[Thu Aug  7 19:38:16 2025] 127.0.0.1:44890 Closing
+[Thu Aug  7 19:38:30 2025] 127.0.0.1:47208 Accepted
+[Thu Aug  7 19:38:30 2025] 127.0.0.1:47208 [302]: GET /ex08/test-data
+[Thu Aug  7 19:38:30 2025] 127.0.0.1:47208 Closing
+[Thu Aug  7 19:38:30 2025] 127.0.0.1:47216 Accepted
+[Thu Aug  7 19:38:30 2025] 127.0.0.1:47216 [200]: GET /ex08?message=Test%20data%20inserted%20successfully!
+[Thu Aug  7 19:38:30 2025] 127.0.0.1:47216 Closing
+[Thu Aug  7 19:38:30 2025] 127.0.0.1:47230 Accepted
+[Thu Aug  7 19:38:30 2025] 127.0.0.1:47230 [200]: GET /_wdt/9a1020
+[Thu Aug  7 19:38:30 2025] 127.0.0.1:47230 Closing
+[Thu Aug  7 19:38:33 2025] 127.0.0.1:47234 Accepted
+[Thu Aug  7 19:38:33 2025] 127.0.0.1:47234 [200]: GET /ex08/show-tables
+[Thu Aug  7 19:38:33 2025] 127.0.0.1:47234 Closing
+[Thu Aug  7 19:38:33 2025] 127.0.0.1:47240 Accepted
+[Thu Aug  7 19:38:33 2025] 127.0.0.1:47240 [200]: GET /_wdt/50511b
+[Thu Aug  7 19:38:33 2025] 127.0.0.1:47240 Closing
+[Thu Aug  7 19:38:40 2025] 127.0.0.1:56826 Accepted
+[Thu Aug  7 19:38:40 2025] 127.0.0.1:56826 Closed without sending a request; it was probably just an unused speculative preconnection
+[Thu Aug  7 19:38:40 2025] 127.0.0.1:56826 Closing
+[Thu Aug  7 19:38:52 2025] 127.0.0.1:58910 Accepted
+[Thu Aug  7 19:38:52 2025] 127.0.0.1:58910 [200]: GET /ex08?message=Test%20data%20inserted%20successfully!
+[Thu Aug  7 19:38:52 2025] 127.0.0.1:58910 Closing
+[Thu Aug  7 19:38:52 2025] 127.0.0.1:58926 Accepted
+[Thu Aug  7 19:38:52 2025] 127.0.0.1:58926 [200]: GET /_wdt/70de51
+[Thu Aug  7 19:38:52 2025] 127.0.0.1:58926 Closing
+[Thu Aug  7 19:38:57 2025] 127.0.0.1:58938 Accepted
+[Thu Aug  7 19:38:57 2025] 127.0.0.1:58938 [200]: GET /ex09
+[Thu Aug  7 19:38:57 2025] 127.0.0.1:58938 Closing
+[Thu Aug  7 19:38:57 2025] 127.0.0.1:58940 Accepted
+[Thu Aug  7 19:38:57 2025] 127.0.0.1:58940 [200]: GET /_wdt/4405e7
+[Thu Aug  7 19:38:57 2025] 127.0.0.1:58940 Closing
+[Thu Aug  7 19:39:38 2025] 127.0.0.1:43744 Accepted
+[Thu Aug  7 19:39:38 2025] 127.0.0.1:43744 [200]: GET /ex09
+[Thu Aug  7 19:39:38 2025] 127.0.0.1:43744 Closing
+[Thu Aug  7 19:39:38 2025] 127.0.0.1:43750 Accepted
+[Thu Aug  7 19:39:38 2025] 127.0.0.1:43750 [200]: GET /_wdt/627ecf
+[Thu Aug  7 19:39:38 2025] 127.0.0.1:43750 Closing
+[Thu Aug  7 19:39:41 2025] 127.0.0.1:60044 Accepted
+[Thu Aug  7 19:39:41 2025] 127.0.0.1:60044 [302]: GET /ex09/create-schema
+[Thu Aug  7 19:39:41 2025] 127.0.0.1:60044 Closing
+[Thu Aug  7 19:39:41 2025] 127.0.0.1:60054 Accepted
+[Thu Aug  7 19:39:41 2025] 127.0.0.1:60054 [200]: GET /ex09?message=Database%20schema%20created%20successfully!
+[Thu Aug  7 19:39:41 2025] 127.0.0.1:60054 Closing
+[Thu Aug  7 19:39:41 2025] 127.0.0.1:60060 Accepted
+[Thu Aug  7 19:39:41 2025] 127.0.0.1:60060 [200]: GET /_wdt/dbeb42
+[Thu Aug  7 19:39:41 2025] 127.0.0.1:60060 Closing
+[Thu Aug  7 19:39:42 2025] 127.0.0.1:60070 Accepted
+[Thu Aug  7 19:39:42 2025] 127.0.0.1:60070 [200]: GET /ex09/schema-info
+[Thu Aug  7 19:39:42 2025] 127.0.0.1:60070 Closing
+[Thu Aug  7 19:39:43 2025] 127.0.0.1:60084 Accepted
+[Thu Aug  7 19:39:43 2025] 127.0.0.1:60084 [200]: GET /_wdt/fd7035
+[Thu Aug  7 19:39:43 2025] 127.0.0.1:60084 Closing
+[Thu Aug  7 19:39:44 2025] 127.0.0.1:60098 Accepted
+[Thu Aug  7 19:39:44 2025] 127.0.0.1:60098 Closed without sending a request; it was probably just an unused speculative preconnection
+[Thu Aug  7 19:39:44 2025] 127.0.0.1:60098 Closing
+[Thu Aug  7 19:39:49 2025] 127.0.0.1:60108 Accepted
+[Thu Aug  7 19:39:49 2025] 127.0.0.1:60108 [200]: GET /ex09/create-person
+[Thu Aug  7 19:39:49 2025] 127.0.0.1:60108 Closing
+[Thu Aug  7 19:39:49 2025] 127.0.0.1:60118 Accepted
+[Thu Aug  7 19:39:49 2025] 127.0.0.1:60118 [200]: GET /_wdt/1dc0e9
+[Thu Aug  7 19:39:49 2025] 127.0.0.1:60118 Closing
+[Thu Aug  7 19:40:05 2025] 127.0.0.1:53838 Accepted
+[Thu Aug  7 19:40:05 2025] 127.0.0.1:53838 [302]: POST /ex09/create-person
+[Thu Aug  7 19:40:05 2025] 127.0.0.1:53838 Closing
+[Thu Aug  7 19:40:05 2025] 127.0.0.1:53840 Accepted
+[Thu Aug  7 19:40:05 2025] 127.0.0.1:53840 [200]: GET /ex09?message=Person%20created%20successfully!
+[Thu Aug  7 19:40:05 2025] 127.0.0.1:53840 Closing
+[Thu Aug  7 19:40:05 2025] 127.0.0.1:53848 Accepted
+[Thu Aug  7 19:40:05 2025] 127.0.0.1:53848 [200]: GET /_wdt/ee6f86
+[Thu Aug  7 19:40:05 2025] 127.0.0.1:53848 Closing
+[Thu Aug  7 19:40:14 2025] 127.0.0.1:45732 Accepted
+[Thu Aug  7 19:40:14 2025] 127.0.0.1:45732 [302]: GET /ex09/add-marital-status
+[Thu Aug  7 19:40:14 2025] 127.0.0.1:45732 Closing
+[Thu Aug  7 19:40:14 2025] 127.0.0.1:45738 Accepted
+[Thu Aug  7 19:40:14 2025] 127.0.0.1:45738 [200]: GET /ex09?message=Marital%20status%20column%20already%20exists%20and%20is%20ready%20to%20use!
+[Thu Aug  7 19:40:14 2025] 127.0.0.1:45738 Closing
+[Thu Aug  7 19:40:14 2025] 127.0.0.1:45746 Accepted
+[Thu Aug  7 19:40:14 2025] 127.0.0.1:45746 [200]: GET /_wdt/644bac
+[Thu Aug  7 19:40:14 2025] 127.0.0.1:45746 Closing
+[Thu Aug  7 19:40:28 2025] 127.0.0.1:53562 Accepted
+[Thu Aug  7 19:40:28 2025] 127.0.0.1:53562 [200]: GET /ex09/edit-person/1
+[Thu Aug  7 19:40:28 2025] 127.0.0.1:53562 Closing
+[Thu Aug  7 19:40:28 2025] 127.0.0.1:53572 Accepted
+[Thu Aug  7 19:40:28 2025] 127.0.0.1:53572 [200]: GET /_wdt/637e21
+[Thu Aug  7 19:40:28 2025] 127.0.0.1:53572 Closing
+[Thu Aug  7 19:40:32 2025] 127.0.0.1:53586 Accepted
+[Thu Aug  7 19:40:32 2025] 127.0.0.1:53586 [200]: GET /ex09/manage-bank-account/1
+[Thu Aug  7 19:40:32 2025] 127.0.0.1:53586 Closing
+[Thu Aug  7 19:40:32 2025] 127.0.0.1:53590 Accepted
+[Thu Aug  7 19:40:32 2025] 127.0.0.1:53590 [200]: GET /_wdt/f03c80
+[Thu Aug  7 19:40:32 2025] 127.0.0.1:53590 Closing
+[Thu Aug  7 19:40:37 2025] 127.0.0.1:37938 Accepted
+[Thu Aug  7 19:40:37 2025] 127.0.0.1:37938 [200]: GET /ex09/manage-addresses/1
+[Thu Aug  7 19:40:37 2025] 127.0.0.1:37938 Closing
+[Thu Aug  7 19:40:37 2025] 127.0.0.1:37946 Accepted
+[Thu Aug  7 19:40:37 2025] 127.0.0.1:37946 [200]: GET /_wdt/311454
+[Thu Aug  7 19:40:37 2025] 127.0.0.1:37946 Closing
+[Thu Aug  7 19:41:16 2025] 127.0.0.1:55404 Accepted
+[Thu Aug  7 19:41:16 2025] 127.0.0.1:55404 [302]: GET /ex09/add-marital-status
+[Thu Aug  7 19:41:16 2025] 127.0.0.1:55404 Closing
+[Thu Aug  7 19:41:16 2025] 127.0.0.1:55416 Accepted
+[Thu Aug  7 19:41:16 2025] 127.0.0.1:55416 [200]: GET /ex09?message=Marital%20status%20column%20already%20exists%20and%20is%20ready%20to%20use!
+[Thu Aug  7 19:41:16 2025] 127.0.0.1:55416 Closing
+[Thu Aug  7 19:41:16 2025] 127.0.0.1:55432 Accepted
+[Thu Aug  7 19:41:16 2025] 127.0.0.1:55432 [200]: GET /_wdt/4573bc
+[Thu Aug  7 19:41:16 2025] 127.0.0.1:55432 Closing
+[Thu Aug  7 19:41:17 2025] 127.0.0.1:55446 Accepted
+[Thu Aug  7 19:41:17 2025] 127.0.0.1:55446 [302]: GET /ex09/add-marital-status
+[Thu Aug  7 19:41:17 2025] 127.0.0.1:55446 Closing
+[Thu Aug  7 19:41:17 2025] 127.0.0.1:55448 Accepted
+[Thu Aug  7 19:41:17 2025] 127.0.0.1:55448 [200]: GET /ex09?message=Marital%20status%20column%20already%20exists%20and%20is%20ready%20to%20use!
+[Thu Aug  7 19:41:17 2025] 127.0.0.1:55448 Closing
+[Thu Aug  7 19:41:17 2025] 127.0.0.1:55464 Accepted
+[Thu Aug  7 19:41:17 2025] 127.0.0.1:55464 [200]: GET /_wdt/20ac71
+[Thu Aug  7 19:41:17 2025] 127.0.0.1:55464 Closing
+[Thu Aug  7 19:41:17 2025] 127.0.0.1:55478 Accepted
+[Thu Aug  7 19:41:18 2025] 127.0.0.1:55478 [302]: GET /ex09/add-marital-status
+[Thu Aug  7 19:41:18 2025] 127.0.0.1:55478 Closing
+[Thu Aug  7 19:41:18 2025] 127.0.0.1:55492 Accepted
+[Thu Aug  7 19:41:18 2025] 127.0.0.1:55492 [200]: GET /ex09?message=Marital%20status%20column%20already%20exists%20and%20is%20ready%20to%20use!
+[Thu Aug  7 19:41:18 2025] 127.0.0.1:55492 Closing
+[Thu Aug  7 19:41:18 2025] 127.0.0.1:55508 Accepted
+[Thu Aug  7 19:41:18 2025] 127.0.0.1:55508 [200]: GET /_wdt/5cbb09
+[Thu Aug  7 19:41:18 2025] 127.0.0.1:55508 Closing
+[Thu Aug  7 19:41:21 2025] 127.0.0.1:55524 Accepted
+[Thu Aug  7 19:41:21 2025] 127.0.0.1:55524 [200]: GET /ex09/edit-person/1
+[Thu Aug  7 19:41:21 2025] 127.0.0.1:55524 Closing
+[Thu Aug  7 19:41:21 2025] 127.0.0.1:55536 Accepted
+[Thu Aug  7 19:41:21 2025] 127.0.0.1:55536 [200]: GET /_wdt/d7a50b
+[Thu Aug  7 19:41:21 2025] 127.0.0.1:55536 Closing
+[Thu Aug  7 19:41:24 2025] 127.0.0.1:50862 Accepted
+[Thu Aug  7 19:41:24 2025] 127.0.0.1:50862 [200]: GET /ex09
+[Thu Aug  7 19:41:24 2025] 127.0.0.1:50862 Closing
+[Thu Aug  7 19:41:24 2025] 127.0.0.1:50866 Accepted
+[Thu Aug  7 19:41:24 2025] 127.0.0.1:50866 [200]: GET /_wdt/9591bc
+[Thu Aug  7 19:41:24 2025] 127.0.0.1:50866 Closing
+[Thu Aug  7 19:41:25 2025] 127.0.0.1:50876 Accepted
+[Thu Aug  7 19:41:25 2025] 127.0.0.1:50876 [200]: GET /ex09/manage-bank-account/1
+[Thu Aug  7 19:41:25 2025] 127.0.0.1:50876 Closing
+[Thu Aug  7 19:41:25 2025] 127.0.0.1:50888 Accepted
+[Thu Aug  7 19:41:25 2025] 127.0.0.1:50888 [200]: GET /_wdt/d04baf
+[Thu Aug  7 19:41:25 2025] 127.0.0.1:50888 Closing
+[Thu Aug  7 19:41:34 2025] 127.0.0.1:34360 Accepted
+[Thu Aug  7 19:41:34 2025] 127.0.0.1:34360 [302]: POST /ex09/manage-bank-account/1
+[Thu Aug  7 19:41:34 2025] 127.0.0.1:34360 Closing
+[Thu Aug  7 19:41:34 2025] 127.0.0.1:34364 Accepted
+[Thu Aug  7 19:41:34 2025] 127.0.0.1:34364 [200]: GET /ex09?message=Bank%20account%20updated%20successfully!
+[Thu Aug  7 19:41:34 2025] 127.0.0.1:34364 Closing
+[Thu Aug  7 19:41:34 2025] 127.0.0.1:34376 Accepted
+[Thu Aug  7 19:41:34 2025] 127.0.0.1:34376 [200]: GET /_wdt/272b02
+[Thu Aug  7 19:41:34 2025] 127.0.0.1:34376 Closing
+[Thu Aug  7 19:41:38 2025] 127.0.0.1:34384 Accepted
+[Thu Aug  7 19:41:38 2025] 127.0.0.1:34384 [302]: GET /ex09/add-marital-status
+[Thu Aug  7 19:41:38 2025] 127.0.0.1:34384 Closing
+[Thu Aug  7 19:41:38 2025] 127.0.0.1:34388 Accepted
+[Thu Aug  7 19:41:38 2025] 127.0.0.1:34388 [200]: GET /ex09?message=Marital%20status%20column%20already%20exists%20and%20is%20ready%20to%20use!
+[Thu Aug  7 19:41:38 2025] 127.0.0.1:34388 Closing
+[Thu Aug  7 19:41:38 2025] 127.0.0.1:34390 Accepted
+[Thu Aug  7 19:41:38 2025] 127.0.0.1:34390 [200]: GET /_wdt/392f96
+[Thu Aug  7 19:41:38 2025] 127.0.0.1:34390 Closing
+[Thu Aug  7 19:41:41 2025] 127.0.0.1:34400 Accepted
+[Thu Aug  7 19:41:41 2025] 127.0.0.1:34400 [200]: GET /ex09/manage-addresses/1
+[Thu Aug  7 19:41:41 2025] 127.0.0.1:34400 Closing
+[Thu Aug  7 19:41:41 2025] 127.0.0.1:34410 Accepted
+[Thu Aug  7 19:41:41 2025] 127.0.0.1:34410 [200]: GET /_wdt/c14dba
+[Thu Aug  7 19:41:41 2025] 127.0.0.1:34410 Closing
+[Thu Aug  7 19:41:48 2025] 127.0.0.1:50122 Accepted
+[Thu Aug  7 19:41:48 2025] 127.0.0.1:50122 [200]: GET /ex09
+[Thu Aug  7 19:41:48 2025] 127.0.0.1:50122 Closing
+[Thu Aug  7 19:41:48 2025] 127.0.0.1:50130 Accepted
+[Thu Aug  7 19:41:48 2025] 127.0.0.1:50130 [200]: GET /_wdt/5017cf
+[Thu Aug  7 19:41:48 2025] 127.0.0.1:50130 Closing

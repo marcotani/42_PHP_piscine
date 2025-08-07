@@ -10,3 +10,35 @@ ex01_controllers:
 controllers_e00:
     resource: ../src/ex00/Controller/
     type: attribute
+
+ex07_controllers:
+    resource: '../src/ex07/Controller/'
+    type: attribute
+
+ex08_controllers:
+    resource: '../src/ex08/Controller/'
+    type: attribute
+
+ex09_controllers:
+    resource: '../src/ex09/Controller/'
+    type: attribute
+
+ex10_controllers:
+    resource: '../src/ex10/Controller/'
+    type: attribute
+
+ex11_controllers:
+    resource: '../src/ex11/Controller/'
+    type: attribute
+
+ex12_controllers:
+    resource: '../src/ex12/Controller/'
+    type: attribute
+
+ex13_controllers:
+    resource: '../src/ex13/Controller/'
+    type: attribute
+
+ex14_controllers:
+    resource: '../src/ex14/Controller/'
+    type: attribute

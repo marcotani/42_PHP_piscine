@@ -1,0 +1,8 @@
+<h1>Create Person</h1>
+{% if error is defined and error %}<div>{{ error }}</div>{% endif %}
+{% if message is defined and message %}<div>{{ message }}</div>{% endif %}
+{{ form_start(form) }}
+{{ form_widget(form) }}
+<button type="submit">Create</button>
+{{ form_end(form) }}
+<p><a href="{{ path('ex09_home') }}">← Back to Home</a></p>
